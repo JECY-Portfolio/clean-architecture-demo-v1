@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clean-architecture-demo-v1-api", "clean-architecture-demo-v1-api\clean-architecture-demo-v1-api.csproj", "{CE220B73-740D-416B-B1AC-0B1AD17ED361}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clean-architecture-demo-v1.Api", "clean-architecture-demo-v1-api\clean-architecture-demo-v1.Api.csproj", "{CE220B73-740D-416B-B1AC-0B1AD17ED361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clean-architecture-demo-v1.Application", "clean-architecture-demo-v1.Application\clean-architecture-demo-v1.Application.csproj", "{1B297F65-E2C6-4430-B939-81F59095B78C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clean-architecture-demo-v1.Core", "clean-architecture-demo-v1.Core\clean-architecture-demo-v1.Core.csproj", "{AD552EEB-4C27-4A56-89E3-FE5DE9F92690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clean-architecture-demo-v1.Infrastructure", "clean-architecture-demo-v1.Infrastructure\clean-architecture-demo-v1.Infrastructure.csproj", "{F464AEF6-9C82-40B1-9266-A31EE96354AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{CE220B73-740D-416B-B1AC-0B1AD17ED361}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE220B73-740D-416B-B1AC-0B1AD17ED361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE220B73-740D-416B-B1AC-0B1AD17ED361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B297F65-E2C6-4430-B939-81F59095B78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B297F65-E2C6-4430-B939-81F59095B78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B297F65-E2C6-4430-B939-81F59095B78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B297F65-E2C6-4430-B939-81F59095B78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD552EEB-4C27-4A56-89E3-FE5DE9F92690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD552EEB-4C27-4A56-89E3-FE5DE9F92690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD552EEB-4C27-4A56-89E3-FE5DE9F92690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD552EEB-4C27-4A56-89E3-FE5DE9F92690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F464AEF6-9C82-40B1-9266-A31EE96354AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F464AEF6-9C82-40B1-9266-A31EE96354AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F464AEF6-9C82-40B1-9266-A31EE96354AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F464AEF6-9C82-40B1-9266-A31EE96354AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
