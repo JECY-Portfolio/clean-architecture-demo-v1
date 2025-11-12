@@ -1,3 +1,4 @@
+using clean_architecture_demo_v1.Core.Options;
 using clean_architecture_demo_v1_api;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,8 +10,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//builder.Services.Configure<ConnectionStringOptions>(builder.Configuration.GetSection(ConnectionStringOptions.SectionName));
 
-builder.Services.AddApiDI();
+
+builder.Services.AddApiDI(builder.Configuration);
 
 var app = builder.Build();
 
