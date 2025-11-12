@@ -1,6 +1,6 @@
 ﻿using clean_architecture_demo_v1.Core.Entities;
 
-namespace clean_architecture_demo_v1.Application.Interfaces
+namespace clean_architecture_demo_v1.Core.Interfaces
 {
     public interface IEmployeeRepository
     {

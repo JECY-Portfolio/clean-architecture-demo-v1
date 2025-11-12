@@ -1,5 +1,5 @@
-﻿using clean_architecture_demo_v1.Application.Interfaces;
-using clean_architecture_demo_v1.Core.Entities;
+﻿using clean_architecture_demo_v1.Core.Entities;
+using clean_architecture_demo_v1.Core.Interfaces;
 using MediatR;
 using System;
 using System.Collections.Generic;
